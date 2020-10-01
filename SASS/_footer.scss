@@ -1,0 +1,28 @@
+.footer{
+    color: black;
+    background: grey;
+    padding: 10px;
+
+
+.footer__list{
+    @include flex(row, center, center);
+    list-style: none;
+
+    .footer__item{
+        margin: 0 20px;
+        font-family: $fuente-parrafos;
+        font-size: larger;
+    }
+
+    @each $social, $color in $redes {
+
+        .footer__item--#{$social}{
+            color: $color;
+        }
+        
+    }
+
+}
+    }
+
+ 

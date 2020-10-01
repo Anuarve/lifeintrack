@@ -1,0 +1,42 @@
+
+.navbar {
+    padding: 10px;
+    background: $blanco;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .navbar__title{
+    .navbar__titlelink{
+        color: $negro;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-left: 30px;
+    }
+}
+    .navbar__menu 
+    {display: flex;
+    text-decoration: none;
+    list-style: none;
+
+    .navbar__menuItem {
+        margin-left: 40px;
+        transition: color 1s;        
+           
+    .navbar__menuLink {
+        color: $negro;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        transition-delay: border 1s;;
+
+        &:hover {
+            color: white;
+            background: black;         
+        }
+       
+    }
+
+    }
+}
+}

@@ -1,0 +1,30 @@
+.fotos{
+    background: rgb(224, 221, 221);
+    padding: $padding-seccion;
+    border-radius: 50px;
+
+.fotos__titulo{
+    @extend %titulo;
+}
+
+.fotos__texto{
+    font-family: $fuente-parrafos;
+    font-size: $tamano-parrafos;
+    margin-bottom: $margin-titulos;
+}
+
+ul {
+    @include flex(flex, row, space-between)
+}
+
+
+.fotos__fotos1{
+    @include tamano-fotos(300px)
+}
+
+.fotos__fotos2{
+    @include tamano-fotos(300px)
+}
+
+
+}

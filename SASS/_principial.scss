@@ -1,0 +1,47 @@
+.tarjeta {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 300px;
+    width: 900px;
+    margin: 50px;
+    transition: 1s;
+    img {
+        width: 250px;
+        height: 300px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    p{
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        width: 50%;
+        text-align: left;
+        font-weight: 400;
+        line-height: 1.6; 
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: large;
+    }
+    .tarjeta h3{
+        color:white;
+        text-align: center;
+    
+    &hover {
+        box-shadow: 10px 8px 16px 10px rgba(0,0,0,0.2);
+      }
+
+  .tarjeta-help{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 600px;
+    width: 700px;
+    margin: 40px ;
+    transition: 1s;
+
+  }
+  }
+
+.container {
+    padding: 60px;
+  }
+
+}
